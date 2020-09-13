@@ -14,7 +14,7 @@ body {
 
 /* navbar */
 .navbar-brand {
-   font-size: 34px;
+   font-size: 28px;
    font-weight: 600;
 }
 
@@ -25,8 +25,8 @@ body {
 }
 
 .myPhoto {
-   width: 45px;
-   height: 45px;
+   width: 40px;
+   height: 40px;
    object-fit: cover;
 }
 
@@ -35,18 +35,18 @@ body {
    margin-top: 50px;
 }
 
-.header h2,
+.header h3,
 p {
    width: 400px;
    color: #E5E5E5;
 }
 
-.header h2 {
+.header h3 {
    font-weight: 600;
    margin-top: 30px;
 }
 
-.header p {
+.header p.desc {
    font-size: 18px;
 }
 
