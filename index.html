@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <!-- Poppins font -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+   <!-- My CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <title>Ahmad Sufyan</title>
+</head>
+
+<body>
+
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+         <img src="assets/fyn.jpg" alt="Ahmad Sufyan" class="rounded-circle myPhoto">
+         <a class="navbar-brand ml-3" href="#">AHMAD SUFYAN</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+               <a class="nav-link ml-3" href="#project">Project</a>
+               <a class="nav-link ml-3" href="#certificate">Certificate</a>
+               <a class="nav-link ml-3" href="https://ahmadsufyan.my.id/">Blog</a>
+               <a class="nav-link ml-3" href="mailto:ahmadsufyan514@gmail.com">Contact</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <!-- end navbar -->
+
+   <!-- header -->
+   <section class="header">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 align-self-center">
+               <h2>Hi, I Am Ahmad Sufyan</h2>
+               <p>I’m a junior android developer since 2020. I’m very interested on android programming and enthusiast
+                  to learn something new. </p>
+               <a href="#" class="btn btn-primary pt-3 pb-3 pl-4 pr-4"><i class="fas fa-envelope"></i> Email Me</a>
+               <span class="media-social">
+                  <a href="https://api.whatsapp.com/send?phone=6285237264054" class="ml-4"><i
+                        class="fab fa-whatsapp fa-2x"></i></a>
+                  <a href="https://github.com/ahmadsufyan455/" class="ml-4"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://www.youtube.com/channel/UCw-os_0NNQy-4y-z4qCEPSA" class="ml-4"><i
+                        class="fab fa-youtube fa-2x"></i></a>
+               </span>
+               <p class="download-cv mt-1">
+                  <a href="#" onclick="downloadCv()"><i class="fas fa-file-download"></i> Download CV</a>
+               </p>
+            </div>
+            <div class="col-md-6 d-none d-lg-block">
+               <img src="assets/mobiledev.png" alt="Android Developer" title="Android Developer" width="100%"
+                  class="vector1">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end header -->
+
+   <!-- project -->
+   <section class="project mt-5 mb-5" id="project">
+      <div class="container">
+         <h5 class="mb-4">My Project</h5>
+         <div class="card">
+            <div class="row">
+               <div class="col-lg-4 mt-3" align="center">
+                  <img src="assets/time.png" width="100%" alt="">
+                  <div class="row mt-3">
+                     <div class="col">
+                        <a href="https://bit.ly/time-app" class="mr-3"><i class="fas fa-download"></i> Download</a>
+                        <a href="https://github.com/ahmadsufyan455/Time-Management-App"><i class="fas fa-code"></i>
+                           Source Code</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 mt-3" align="center">
+                  <img src="assets/moviecenter.png" width="100%" alt="">
+                  <div class="row mt-3">
+                     <div class="col">
+                        <a href="https://bit.ly/movie-centre" class="mr-3"><i class="fas fa-download"></i> Download</a>
+                        <a href="https://github.com/ahmadsufyan455/Movie-Center"><i class="fas fa-code"></i> Source
+                           Code</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 mt-3" align="center">
+                  <img src="assets/githubuser.png" width="100%" alt="">
+                  <div class="row mt-3">
+                     <div class="col">
+                        <a href="https://bit.ly/github-app" class="mr-3"><i class="fas fa-download"></i> Download</a>
+                        <a href="https://github.com/ahmadsufyan455/github-user-search"><i class="fas fa-code"></i>
+                           Source Code</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end project -->
+
+   <!-- certificate -->
+   <section class="certificate mt-5 mb-5" id="certificate">
+      <div class="container">
+         <h5 class="mb-4">Certificate</h5>
+         <div class="card">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <img src="assets/memulai.png" class="d-block" alt="...">
+                        </div>
+                        <div class="col-lg-6 align-self-center">
+                           <h3 class="mt-2">Memulai Pemrograman Dengan Kotlin</h3>
+                           <p>By: Dicoding Indonesia</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <img src="assets/pemula.png" class="d-block" alt="...">
+                        </div>
+                        <div class="col-lg-6 align-self-center">
+                           <h3 class="mt-2">Belajar Membuat Aplikasi Android Untuk Pemula</h3>
+                           <p>By: Dicoding Indonesia</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <img src="assets/fundamental.png" class="d-block" alt="...">
+                        </div>
+                        <div class="col-lg-6 align-self-center">
+                           <h3 class="mt-2">Belajar Fundamental Aplikasi Android (BFAA)</h3>
+                           <p>By: Dicoding Indonesia</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <img src="assets/coreteam.png" class="d-block" alt="...">
+                        </div>
+                        <div class="col-lg-6 align-self-center">
+                           <h3 class="mt-2">DSC Core Team Ahmad Dahlan University</h3>
+                           <p>By: Google Developer Student Clubs</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end certificate -->
+
+   <!-- tools -->
+   <section class="tools mb-5">
+      <div class="container">
+         <div class="card">
+            <div class="row">
+               <div class="col d-flex justify-content-center">
+                  <h5 class="mb-4">Tools & Skills</h5>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md d-flex justify-content-center mt-4">
+                  <img src="assets/figma.png" alt="figma" title="Figma">
+               </div>
+               <div class="col-md d-flex justify-content-center align-self-center mt-4">
+                  <img src="assets/adobe-xd.png" width="80px" height="80px" alt="xd" title="Adobe Xd">
+               </div>
+               <div class="col-md d-flex justify-content-center mt-4">
+                  <img src="assets/android-studio.png" alt="android studio" title="Android Studio">
+               </div>
+               <div class="col-md d-flex justify-content-center mt-4">
+                  <img src="assets/html5.png" alt="html" title="HTML">
+               </div>
+               <div class="col-md d-flex justify-content-center mt-4">
+                  <img src="assets/css3.png" alt="css" title="CSS">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end tools -->
+
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col" align="center">
+               <p><i class="fas fa-map-marker-alt"></i> Lombok, Indonesia</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end footer -->
+
+
+   <!-- My Js -->
+   <script src="main.js"></script>
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+html {
+   scroll-behavior: smooth;
+}
+
+/* body */
+body {
+   background-color: #3F3D56;
+   font-family: 'Poppins', sans-serif;
+   background-image: url(assets/ic.png);
+   background-repeat: no-repeat;
+   background-size: 20%;
+   background-position: bottom right;
+}
+
+/* navbar */
+.navbar-brand {
+   font-size: 34px;
+   font-weight: 600;
+}
+
+.nav-link {
+   font-size: 20px;
+   font-weight: 400;
+   color: #E5E5E5 !important;
+}
+
+.myPhoto {
+   width: 45px;
+   height: 45px;
+   object-fit: cover;
+}
+
+/* header */
+.vector1 {
+   margin-top: 50px;
+}
+
+.header h2,
+p {
+   width: 400px;
+   color: #E5E5E5;
+}
+
+.header h2 {
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+.header p {
+   font-size: 18px;
+}
+
+.header p.download-cv a {
+   text-decoration: none;
+   font-size: 14px;
+   color: #E5E5E5;
+}
+
+.header p.download-cv a:hover {
+   text-decoration: none;
+   font-size: 14px;
+   color: #2196F3;
+}
+
+.header span.media-social a {
+   text-decoration: none;
+   color: #E5E5E5;
+}
+
+/* my project */
+.project h5 {
+   color: #E5E5E5;
+   font-weight: 600;
+}
+
+.project .card {
+   background-color: #44425F;
+   padding: 30px;
+}
+
+.project .card img {
+   border-radius: 5px;
+   transition: .3s;
+}
+
+.project .card img:hover {
+   transform: scale(1.08);
+   transition: .4s ease;
+}
+
+.project .card a {
+   text-decoration: none;
+   color: #E5E5E5;
+}
+
+.project .card a:hover {
+   text-decoration: none;
+   color: #2196F3;
+}
+
+/* certificate */
+.certificate h5 {
+   color: #E5E5E5;
+   font-weight: 600;
+}
+
+.certificate .card {
+   background-color: #44425F;
+   padding: 30px 30px 10px 30px;
+}
+
+.certificate .card img {
+   width: 100%;
+}
+
+.certificate .carousel-inner {
+   height: 430px;
+}
+
+.certificate .carousel-inner h3 {
+   font-weight: 600;
+   color: #E5E5E5;
+}
+
+/* tools */
+.tools {
+   margin-top: 80px;
+}
+
+.tools .card {
+   background-color: #44425F;
+   padding: 20px;
+}
+
+.tools h5 {
+   color: #E5E5E5;
+   font-weight: 600;
+}
+
+/* footer */
+footer p {
+   color: #E5E5E5;
+   font-size: 14px;
+}
+
+footer {
+   margin-top: 50px;
+   margin-bottom: 10px;
+}
+
+/* Phone large */
+@media (min-width: 576px) {
+   .certificate .carousel-inner {
+      height: 500px;
+   }
+}
+
+/* Tablet version */
+@media (min-width: 768px) {
+   .certificate .carousel-inner {
+      height: 600px !important;
+   }
+
+   footer {
+      margin-top: 100px;
+   }
+}
+
+/* Desktop version */
+@media (min-width: 992px) {
+   .nav-link:hover::after {
+      content: "";
+      border-bottom: 3px solid #2196F3;
+      display: block;
+      margin: auto;
+      width: 50%;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+   }
+
+   .header p {
+      font-size: 20px;
+   }
+
+   .certificate .carousel-inner {
+      height: 430px !important;
+   }
+
+   footer {
+      margin-top: 150px;
+   }
+}
