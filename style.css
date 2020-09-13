@@ -14,7 +14,7 @@ body {
 
 /* navbar */
 .navbar-brand {
-   font-size: 28px;
+   font-size: 24px;
    font-weight: 600;
 }
 
@@ -35,12 +35,12 @@ body {
    margin-top: 50px;
 }
 
-.header h3,
+.header h4,
 p {
    color: #E5E5E5;
 }
 
-.header h3 {
+.header h4 {
    font-weight: 600;
    margin-top: 30px;
 }
@@ -177,7 +177,7 @@ footer {
       margin-bottom: -8px;
    }
 
-   .header h3,
+   .header h4,
    p {
       width: 400px;
       color: #E5E5E5;
