@@ -177,6 +177,11 @@ footer {
       margin-bottom: -8px;
    }
 
+   .navbar-brand {
+      font-size: 28px;
+      font-weight: 600;
+   }
+
    .header h4,
    p {
       width: 400px;
