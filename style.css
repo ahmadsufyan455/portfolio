@@ -66,6 +66,15 @@ p {
    color: #E5E5E5;
 }
 
+.vector1 {
+   transition: .3s;
+}
+
+.vector1:hover {
+   transform: scale(1.08);
+   transition: .4s ease;
+}
+
 /* my project */
 .project h5 {
    color: #E5E5E5;
