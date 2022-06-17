@@ -12,6 +12,10 @@ body {
    background-position: bottom right;
 }
 
+.fade-in {
+   opacity: 0;
+}
+
 /* navbar */
 .navbar-brand {
    font-size: 24px;
@@ -73,6 +77,17 @@ p {
 .vector1:hover {
    transform: scale(1.08);
    transition: .4s ease;
+}
+
+/* experience */
+.experience .card {
+   background-color: #44425F;
+   color: #E5E5E5;
+}
+
+.experience h5 {
+   color: #E5E5E5;
+   font-weight: 600;
 }
 
 /* my project */
