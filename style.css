@@ -83,6 +83,7 @@ p {
 .experience .card {
    background-color: #44425F;
    color: #E5E5E5;
+   border-radius: 15px;
 }
 
 .experience h5 {
@@ -99,6 +100,7 @@ p {
 .project .card {
    background-color: #44425F;
    padding: 30px;
+   border-radius: 15px;
 }
 
 .project .card img {
@@ -109,6 +111,7 @@ p {
 .project .card img:hover {
    transform: scale(1.08);
    transition: .4s ease;
+   border-radius: 15px;
 }
 
 .project .card a {
@@ -130,6 +133,7 @@ p {
 .certificate .card {
    background-color: #44425F;
    padding: 30px 30px 10px 30px;
+   border-radius: 15px;
 }
 
 .certificate .card img {
@@ -153,6 +157,7 @@ p {
 .tools .card {
    background-color: #44425F;
    padding: 20px;
+   border-radius: 15px;
 }
 
 .tools h5 {
